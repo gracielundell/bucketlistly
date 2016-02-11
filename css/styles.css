@@ -9,24 +9,89 @@ a {
   margin-right: 10px;
 }
 
+h1 {
+  font-size: 80px;
+  font-weight: bolder;
+  margin: 10px;
+}
+
+h3 {
+  font-size: 30px;
+  font-weight: lighter;
+  margin: 10px;
+}
+
+.lilFlag {
+  float: left;
+}
+
 .header {
   text-align: right;
   padding: 10px;
 }
 
+.signIn {
+  border: white;
+  padding: 8px;
+  border: 2px solid white;
+  border-radius: 4px;
+}
+
+.signUp {
+  background: #EFC026;
+  padding: 10px;
+  border-radius: 4px;
+  color: black;
+  border: #EFC026
+}
+
+.signUp:hover {
+  background-color: #F0A029;
+  border: #EFC026;
+}
+
+.signIn:hover {
+  background-color: white;
+  color: black;
+}
+
 .main {
   position: absolute;
-  top: 170px;
-  left: 200px;
+  top: 150px;
+  left: 180px;
   color: white;
   text-align: center;
+  margin-right: 100px;
 }
 
-h1 {
-  font-size: 80px;
-  font-weight: bolder;
+.bigButtons {
+  position: absolute;
+  top: 570px;
+  left: 250px;
+  font-size: 20px;
 }
 
-h3 {
-  font-style: italic;
+.footer {
+  position: absolute;
+  top: 645px;
+  left: 385px;
+}
+
+#explore {
+  padding: 20px 100px 20px 100px;
+  border: 2px solid white;
+  border-radius: 4px;
+  background: rgba(225, 225, 225, 0.2);
+}
+
+#explore:hover {
+    background: rgba(225, 225, 225, 0.4);
+}
+
+#fb {
+  padding: 23px;
+  border: 2px solid #3463B8;
+  border-radius: 4px;
+  background: #3463B8;
+  font-size: 17px;
 }
